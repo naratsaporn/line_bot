@@ -1,6 +1,11 @@
 # Line_bot
  LINE Bot from the Messaging API call.
-
+ ใช้ Node js ในหารพัฒนา 
+ liberry ที่ใช้ 
+ - express ใช้ในการกำหนดเส้นทาง
+ - body-parser ใช้ในการทำหน้าที่เป็นตัวกรอง request
+ - wordcut ใช้ในการตัดประโยคข้อความให้เป็นคำ
+ 
 # server.js
 
 - app.post('/webhook', (req, res) เป็นการกำหนดเส้นทางหากมีการเรียกใช้ App ผ่าน router ชื่อว่า webhook
