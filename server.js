@@ -27,18 +27,13 @@ app.post('/webhook', (req, res) => {
     var text_gruop = wordcut.cut(text);
     var arr = text_gruop.split("|")
     for(var i=0;i<arr.length;i++) {
-
        sendText(sender,arr[i]  )
-
     }
-    
   }
-
   res.sendStatus(200)
 })
 
 function sendText (sender, text) {
-
   let data = {
     to: sender,
     messages: [
@@ -48,7 +43,6 @@ function sendText (sender, text) {
       }
     ]
   }
-  
   request.post({
     headers: {
       'Content-Type': 'application/json',
