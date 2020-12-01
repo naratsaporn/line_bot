@@ -1,6 +1,6 @@
 # Line_bot
  LINE Bot from the Messaging API call.
- ใช้ Node js ในหารพัฒนา 
+ ใช้ Node js ในการพัฒนา 
  liberry ที่ใช้ 
  - express ใช้ในการกำหนดเส้นทาง
  - body-parser ใช้ในการทำหน้าที่เป็นตัวกรอง request
