@@ -2,6 +2,11 @@
  LINE Bot from the Messaging API call.
 
 # server.js
+
+app.post('/webhook', (req, res) เป็นการกำหนดเส้นทางหากมีกการเรียกใช้ App ผ่าน router ชื่อว่า webhook
+https://github.com/naratsaporn/line_bot/blob/59efcea52b6c5dea5c3ad7430ee27239c6d1db36/server.js#L14
+
+function sendText เป็นฟังก์ชันการส่งข้อความกลับไปยังผู้ส่ง
 https://github.com/naratsaporn/line_bot/blob/59efcea52b6c5dea5c3ad7430ee27239c6d1db36/server.js#L40
 
 # Ref
